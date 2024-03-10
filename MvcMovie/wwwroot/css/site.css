@@ -1,0 +1,46 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #b8c9ff;
+    color: #0A0A0A;
+}
+
+.custom-navbar {
+    background-color: #CFE0FF;
+    border-bottom: 1px solid #D3D3D3;
+    box-shadow: 0 2px 4px #00000022;
+}
+
+.custom-navbar-brand {
+    color: #000000 !important;
+}
+
+
+a, a:focus, a:active, a:visited {
+    color: #454545;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.table th {
+    background-color: #CCE0FF;
+    color: #1A1A1A;
+}
